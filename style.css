@@ -37,6 +37,8 @@ body::selection {
   color: var(--cream);
 }
 
+
+
 /* NAVBAR */
 .navbar {
   position: fixed;
@@ -722,6 +724,21 @@ body::selection {
 /* =========================================
    ABOUT US
 ========================================= */
+
+.about-list {
+    font-size: .78rem;
+    line-height: 1.4;
+
+    margin: 0;
+    padding-left: 18px;
+
+    color: var(--cream);
+    opacity: .75;
+}
+
+.about-list li {
+    margin-bottom: 4px;
+}
 
 .about-section {
     position: relative;
